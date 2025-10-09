@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mulax Dossier</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Floating Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #111;
+      color: #00ffe0;
+      padding: 0.8rem 2rem;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0, 255, 224, 0.2);
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #00ffe0;
+      margin-right: 1.5rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff00c8;
+    }
+
+    body {
+      padding-top: 4rem;
+    }
+
+    /* Scroll Reveal Animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 1.5s ease-out forwards;
+    }
+
+    .reveal:nth-child(even) {
+      animation-delay: 0.5s;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Lone Tribute */
+    .muse {
+      background: linear-gradient(90deg, #ff00c8 0%, #ff8a00 100%);
+      color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(255, 0, 200, 0.3);
+      margin-top: 2rem;
+      font-style: italic;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 2s ease-out forwards;
+      animation-delay: 1.2s;
+    }
+
+    .muse strong {
+      color: #fff;
+      text-shadow: 0 0 5px #000;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#vision">Vision</a>
+    <a href="#lone">Lone</a>
+  </nav>
+
+  <h1 class="reveal">📂 Mulax Dossier</h1>
+
+  <section id="about" class="reveal">
+    <h2>👤 About Me</h2>
+    <p><strong>Name:</strong> Amantle Mpaekae</p>
+    <p><strong>Alias:</strong> MulaxPrime</p>
+    <p><strong>Age:</strong> 18</p>
+    <p><strong>Location:</strong> Botswana</p>
+    <p><strong>School:</strong> Gaborone Senior Secondary School (GSSS)</p>
+    <p>I’m a young developer and creative builder passionate about <em>technology, AI, and design</em>. I use the name <strong>MulaxPrime</strong> to represent my projects, innovation, and vision for futuristic digital experiences.</p>
+  </section>
+
+  <section id="education" class="reveal">
+    <h2>🎓 Education</h2>
+    <ul>
+      <li>Gaborone Senior Secondary School (GSSS), Botswana</li>
+      <li>Focus: Science, Technology, and Digital Innovation</li>
+      <li>Currently expanding knowledge in <strong>programming, web/app development, and AI tools</strong></li>
+    </ul>
+  </section>
+
+  <section id="skills" class="reveal">
+    <h2>💡 Skills & Interests</h2>
+    <ul>
+      <li>Frontend Development (HTML, CSS, JavaScript, React)</li>
+      <li>Backend Basics (Node.js, Python)</li>
+      <li>Creative Design (modern UI/UX concepts, portfolios)</li>
+      <li>Artificial Intelligence (prompt engineering, automation, AI-powered projects)</li>
+      <li>Passion for futuristic design & innovation</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2>📜 Projects</h2>
+    <ul>
+      <li><strong>Mulax Dossier</strong> → My personal digital file showcasing who I am and what I build.</li>
+      <li><strong>PrimeVolt</strong> → A modern messaging app concept.</li>
+      <li><strong>MulaxPrime Portfolio</strong> → A futuristic and immersive web portfolio with 3D and animation.</li>
+      <li><strong>Mulax AI</strong> → My personal artificial intelligence projects and experiments.</li>
+      <li><strong>Mulaa XMD (WhatsApp Bot)</strong> → A smart and interactive WhatsApp bot designed for automation and conversations.</li>
+      <li><strong>PrimeMotion</strong> → Creative motion and animation experiments for futuristic web experiences.</li>
+    </ul>
+  </section>
+
+  <section id="vision" class="reveal">
+    <h2>🌍 Vision</h2>
+    <p>My goal is to grow into a <strong>leading African innovator in tech</strong>, creating software, apps, and digital solutions that inspire people and push the limits of creativity.</p>
+    <p><em>This dossier is my foundation. As I learn, build, and grow, I’ll keep updating it.</em></p>
+  </section>
+
+  <section id="lone">
+    <div class="muse">
+      <strong>Lone</strong> → The emotional spark behind Mulax Prime. She’s more than a name—she’s the muse who inspired my tribute portfolio and awakened a deeper creative purpose. Through cinematic storytelling and poetic design, I honor her impact on my journey. Every glowing detail is a quiet thank-you.
+    </div>
+  </section>
+
+</body>
+</html>
