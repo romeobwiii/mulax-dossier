@@ -47,5 +47,10 @@ My goal is to grow into a **leading African innovator in tech**, creating softwa
 
 ---
 
+💖 Muse
+Lone → The emotional spark behind Mulax Prime. She’s more than a name—she’s the muse who inspired my tribute portfolio and awakened a deeper creative purpose. Through cinematic storytelling and poetic design, I honor her impact on my journey. Every glowing detail is a quiet thank-you.
+
+---
+
 ✨ *This dossier is my foundation. As I learn, build, and grow, I’ll keep updating it.*
 
