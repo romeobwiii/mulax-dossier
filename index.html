@@ -1,3 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mulax Dossier | Cinematic Declaration</title>
+  <!-- Futuristic Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* 🌌 Cinematic White Theme */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #ffffff;
+      color: #222;
+      line-height: 1.7;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #fdfdfd;
+      color: #222;
+      padding: 0.8rem 2rem;
+      font-weight: bold;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: #222;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-family: 'Orbitron', sans-serif;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff00c8;
+      text-shadow: 0 0 8px rgba(255,0,200,0.6);
+    }
+
+    body { padding-top: 5rem; }
+
+    h1, h2 {
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #111;
+      border-bottom: 2px solid #ff00c8;
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+
+    ul { padding-left: 1.2rem; }
+
+    header, section {
+      margin-bottom: 2.5rem;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease-out;
+    }
+
+    header.visible, section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ✨ Muse Tribute */
+    .muse {
+      background: linear-gradient(90deg, #ff00c8 0%, #ff8a00 100%);
+      color: #fff;
+      padding: 1.2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255,0,200,0.4);
+      font-style: italic;
+      margin-top: 2rem;
+      font-size: 1.05rem;
+    }
+
+    .muse strong {
+      color: #fff;
+      text-shadow: 0 0 5px #000;
+    }
+
+    /* 🎬 Project Glow */
+    ul li strong:hover {
+      color: #ff00c8;
+      text-shadow: 0 0 10px rgba(255,0,200,0.7);
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
 <body>
   <nav>
     <a href="about.html">About</a>
@@ -16,11 +118,16 @@
   <header id="welcome">
     <h1>📂 Mulax Dossier</h1>
     <p>
-      Welcome to <strong>MulaxPrime</strong> — a mythic archive of code, design, and emotion.  
-      This dossier is not just a portfolio; it is a <em>cinematic declaration</em> of identity, resilience, and legacy.  
+      Welcome to <strong>MulaxPrime</strong> — a mythic archive of code, design, and emotion.<br>
+      This dossier is not just a portfolio; it is a <em>cinematic declaration</em> of identity, resilience, and legacy.<br>
       Step inside and explore the chapters of my journey.
     </p>
   </header>
+
+  <section id="about">
+    <h2>👤 About Me</h2>
+    <p>I am <strong>Amantle Mpaekae</strong>, known as <strong>MulaxPrime</strong> — a builder of mythic systems. My code is not just logic, it is legacy.</p>
+  </section>
 
   <script>
     // 🌠 Scroll Reveal Script
@@ -37,3 +144,4 @@
     window.addEventListener("DOMContentLoaded", revealOnScroll);
   </script>
 </body>
+</html>
